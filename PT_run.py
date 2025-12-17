@@ -3,7 +3,7 @@ import pandas as pd
 from torch.utils.data import Dataset, DataLoader
 from sklearn.model_selection import train_test_split
 import os
-from PathTrans_module import PathwayTransformer, PathwayTransformerMAE
+from PT_module import PathwayTransformer, PathwayTransformerMAE
 
 
 def load_pathway_dict(csv_path):
@@ -181,4 +181,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
