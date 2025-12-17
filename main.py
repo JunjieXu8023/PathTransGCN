@@ -5,7 +5,7 @@ import glob
 from sklearn.metrics import f1_score
 import torch
 import torch.nn.functional as F
-from GCN_model import GCN
+from GCN import GCN
 from tools import load_data, accuracy
 
 CONFIG = {
@@ -250,3 +250,4 @@ def main():
 if __name__ == '__main__':
 
     main()
+
