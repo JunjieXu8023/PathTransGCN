@@ -6,7 +6,7 @@ from sklearn.metrics import f1_score
 import torch
 import torch.nn.functional as F
 from GCN_model import GCN
-from utils import load_data, accuracy
+from tools import load_data, accuracy
 
 CONFIG = {
     'featuredata': 'utils/tcga_lgg_embed.csv',
@@ -248,4 +248,5 @@ def main():
     print(f"\n* Final Result - Test Accuracy: {acc:.4f}, F1: {f1:.4f}")
 
 if __name__ == '__main__':
+
     main()
