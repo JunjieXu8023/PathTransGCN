@@ -166,3 +166,4 @@ class PathwayTransformerMAE(nn.Module):
 
         loss = F.mse_loss(x_recon[mask.view(B, -1)], x_true[mask.view(B, -1)])
         return loss, cls_embed
+
