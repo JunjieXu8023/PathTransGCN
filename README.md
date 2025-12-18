@@ -9,3 +9,10 @@ The whole workflow is divided into three steps:
 - Use PSAM to reduce the dimensionality of multi-omics data to obtain multi-omics feature matrix
 - Use SNF to construct patient similarity network
 - Input multi-omics feature matrix and the patient similarity network to GCN
+
+## Requirements
+- Python 3.8 or above
+- Pytorch 2.1.0 or above
+- pandas 1.5.3 or above
+- snfpy 0.2.2
+- scikit-learn 1.3.2
